@@ -1,0 +1,31 @@
+From da110f364e86a3eacfaea40e4bfae9717cb9b8be Mon Sep 17 00:00:00 2001
+From: James Davidson <james@greycastle.net>
+Date: Sat, 27 Aug 2016 17:31:13 -0700
+Subject: [PATCH] Use plain ASCII in README.rst
+
+---
+ README.rst | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/README.rst b/README.rst
+index 2ec3d87ac0b4..453a57cb431b 100644
+--- a/README.rst
++++ b/README.rst
+@@ -1,6 +1,6 @@
+ simplebayes
+ ===========
+-A memory-based, optional-persistence naïve bayesian text classifier.
++A memory-based, optional-persistence naive bayesian text classifier.
+ --------------------------------------------------------------------
+ ::
+ 
+@@ -99,4 +99,4 @@ License
+ 
+ API Documentation
+ -----------------
+-`<http://hickeroar.github.io/simplebayes/simplebayes.html>`_
+\ No newline at end of file
++`<http://hickeroar.github.io/simplebayes/simplebayes.html>`_
+-- 
+2.7.4
+
